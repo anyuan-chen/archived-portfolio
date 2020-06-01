@@ -11,16 +11,52 @@ body,html{
 h1{
     font-family: 'Quicksand', sans-serif;
     font-size: 2.5rem;
+    padding-bottom: 0;
 }
 h4{
+    padding-top: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
 }
 .full-page{
     height: 100vh;
+    margin: 0 0 0 0;
+    padding: 7em 0 0;
 }
 #top{
     padding-left: 10em;
     padding-top: 10em;
-    background-color: #131112;
+    background-color: #6b0f1a;
+    background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+}
+#projects{
+    padding-left: 10em;
+    background-color: darkgray;
+}
+#contact-me{
+    background-color: midnightblue;
+}
+#nav-bar{
+    display:flex;
+    grid-template-rows: 50% 50%;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+}
+#nav-list{
+    display: flex;
+    margin-right: 5px;
+    list-style: none;
+}
+a{
+    display: block;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
 }
