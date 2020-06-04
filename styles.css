@@ -154,3 +154,14 @@ a{
     align-self: center;
     justify-self: center;
 }
+.inline-anchor{
+    display: inline;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+}
